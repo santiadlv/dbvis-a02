@@ -146,8 +146,8 @@ axisG.append("g")
 
 // TASK: append three text elements to the axisG group and label the axes respectively
 axisG.append("text")
-    .attr("x", 400)
-    .attr("y", 400)
+    .attr("x", width/2)
+    .attr("y", height)
     .text("Year");
 
 axisG.append("text")
@@ -156,6 +156,6 @@ axisG.append("text")
     .text("Temperature");
 
 axisG.append("text")
-    .attr("x", 400)
-    .attr("y", 400)
+    .attr("x", width)
+    .attr("y", 0)
     .text("Rain");
